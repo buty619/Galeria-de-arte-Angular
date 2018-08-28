@@ -53,4 +53,5 @@ body{
 .hide p{
     display: none;
     color: brown;
+    font-size: 14px;
 }
