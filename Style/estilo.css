@@ -43,7 +43,8 @@ body{
 .targeta .flecha{
    font-weight: bolder;
    font-size: 25px;
-   color: brown;    
+   color: brown;
+   transform: rotate(90deg);    
 }
 .rotar{
     transition: 0.1s;
