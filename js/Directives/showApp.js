@@ -4,6 +4,13 @@ app.directive('showApp', function() {
         scope: { 
          info: '='
         },
-        templateUrl: 'js/Directives/showApp.html'
+        templateUrl: 'js/Directives/showApp.html',
+        link: function(scope, element, attrs) { 
+      
+            scope.rotar = function() { 
+              element.toggleClass('rotar'); 
+              
+        }
+        }
   };
   });
