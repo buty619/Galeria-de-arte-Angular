@@ -1,0 +1,51 @@
+*{font-family: 'Montserrat', serif;
+ }
+body{
+    margin: 0px;
+    padding: 0px;
+    background: burlywood;
+}
+.container{
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.Titulo h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+    margin: 0px;    
+}
+.Titulo .luz{
+    color: brown;
+}
+.Titulo{
+    background:  linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(../image/head.jpg) no-repeat center top;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+.targeta{
+    margin: 10px;
+    background: black;
+    padding: 10px;
+    text-align: center;
+}
+.targeta img{
+    height: 200px;
+    width: 200px;
+}
+.targeta p{
+    color: white;
+}
+.targeta .flecha{
+   font-weight: bolder;
+   font-size: 25px;
+   color: brown;    
+}
+.rotar{
+    transition: 0.1s;
+    transform: rotate(90deg); 
+}

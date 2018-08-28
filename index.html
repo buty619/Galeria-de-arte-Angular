@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <link rel="stylesheet" href="Style\normalize.css"> 
+        <link rel="stylesheet" href="Style\estilo.css">
+        <link rel="stylesheet" href="dist\bootstrap-grid.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+           
+    </head>
+    <body>
+        <div class="Titulo">
+            <h1>Galeria de Arte <strong class="luz">Ligth</strong> </h1>
+        </div>
+        <div ng-app="App">
+        <div ng-controller="MainController"  class="container">
+            <div class="row justify-content-md-center">
+            <div ng-repeat="info in image.data" class="targeta col-sm-3">
+                
+                <img src="{{ info.assets.huge_thumb.url }}">
+                <p>{{ info.image_type }} <show-app></show-app></p>
+                <p class="" id="">{{ info.description}}</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </body>
+        <!-- Modules -->
+        <script src="js/app.js"></script>
+        <!-- Controllers -->
+        <script src="js/controllers/MainController.js"></script>    
+        <!-- Services -->
+        <script src="js/services/forecast.js"></script>
+        <!-- Directives -->
+        <script src="js/Directives/showApp.js"></script>    
+
+    
+</html>   
