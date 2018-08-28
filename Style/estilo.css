@@ -50,7 +50,7 @@ body{
     transform: rotate(90deg);
 }
 
-.hide p{
+.hide div > p{
     display: none;
     color: brown;
     font-size: 14px;
