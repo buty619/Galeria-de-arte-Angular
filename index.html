@@ -21,8 +21,8 @@
             <div ng-repeat="info in image.data" class="targeta col-sm-3">
                 
                 <img src="{{ info.assets.huge_thumb.url }}">
-                <p>{{ info.image_type }} <show-app></show-app></p>
-                <p class="" id="">{{ info.description}}</p>
+                <p>{{ info.image_type }}</p>
+                <show-app info="info"></show-app>                
             </div>
             </div>
         </div>
