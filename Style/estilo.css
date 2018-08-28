@@ -47,5 +47,6 @@ body{
 }
 .rotar{
     transition: 0.1s;
-    transform: rotate(90deg); 
+    transform: rotate(90deg);
+    color: green; 
 }
