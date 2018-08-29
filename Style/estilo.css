@@ -50,5 +50,6 @@ body{
 }
 
 .targeta .hide{
+    transition: 0.5s;
     display: none;
 }

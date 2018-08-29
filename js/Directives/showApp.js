@@ -8,7 +8,8 @@ app.directive('showApp', function() {
         link: function(scope, element, attrs) { 
       
             scope.rotar = function() { 
-              element.toggleClass('rotar'); 
+              element.toggleClass('rotar');
+              element.toggleClass('hide'); 
               
         }
         }
