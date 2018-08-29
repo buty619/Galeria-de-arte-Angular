@@ -50,7 +50,7 @@ body{
     transform: rotate(90deg);
 }
 
-.targeta .hide  p{
-    color: brown;
+.texto p{
+    background: brown;
     font-size: 14px;
 }
