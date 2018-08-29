@@ -10,8 +10,8 @@ app.directive('showApp', function() {
             scope.rotar = function() { 
               element.toggleClass('rotar');
               $('p').each(function(){
-              $(this).addClass("hide");
-              }).mouseleave(removeClass("hide"));              
+              $(this).removeClass("hide");
+              }).mouseleave(addClass("hide"));              
         }
         }
   };
