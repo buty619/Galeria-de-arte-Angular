@@ -9,7 +9,7 @@ app.directive('showApp', function() {
       
             scope.rotar = function() { 
               element.toggleClass('rotar');
-              $(this).closest( "p" ).toggleClass("hide");                                
+              element.closest( "p" ).toggleClass("hide");                                
         }
         }
   };
