@@ -42,14 +42,14 @@ body{
 .targeta .flecha{
    font-weight: bolder;
    font-size: 35px;
-   color: brown;   
+   color: blue;   
 }
 .rotar i{
     transition: 0.5s;
     transform: rotate(90deg);
 }
 
-.texto p{
+.targeta .texto{
     background: brown;
     font-size: 10px;
 }
