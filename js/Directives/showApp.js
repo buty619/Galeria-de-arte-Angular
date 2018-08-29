@@ -11,7 +11,7 @@ app.directive('showApp', function() {
               element.toggleClass('rotar');
               $('p').each(function(){
               $(this).removeClass("hide");
-              }).mouseleave(addClass("hide"));              
+              }).mouseleave($(this).addClass("hide"));              
         }
         }
   };
