@@ -9,7 +9,7 @@ app.directive('showApp', function() {
       
             scope.rotar = function() { 
               element.toggleClass('rotar');
-              $('#texto').toggleClass("hide");
+              $(this.$("#texto")).toggleClass("hide");
         }
 
         }
