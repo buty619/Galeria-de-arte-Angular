@@ -9,9 +9,9 @@ app.directive('showApp', function() {
       
             scope.rotar = function() { 
               element.toggleClass('rotar');
-              element.toggleClass('hide'); 
-              
+              $('#texto').toggleClass("hide");
         }
+
         }
   };
   });
