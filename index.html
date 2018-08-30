@@ -22,7 +22,9 @@
                 
                 <img src="{{ info.assets.huge_thumb.url }}">
                 <p>{{ info.image_type }}</p>
-                <show-app info="info"></show-app>                
+                <show-app info="info"></show-app>           
+                <i class="fas fa-angle-right flecha" ng-click="toggleSingleClass()" ng-class="{'rotar':class_status }"></i>   
+                <p class="hide" ng-class="{'hide':class_status2 }">{{ info.description}}</p>             
             </div>
             </div>
         </div>

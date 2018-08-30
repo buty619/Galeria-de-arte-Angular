@@ -44,12 +44,12 @@ body{
    font-size: 35px;
    color: brown;   
 }
-.rotar i{
+.rotar{
     transition: 0.5s;
     transform: rotate(90deg);
 }
 
-.targeta .hide{
-    transition: 0.5s;
+.hide{
+    transition: 1s;
     display: none;
 }

@@ -5,12 +5,5 @@ app.directive('showApp', function() {
          info: '='
         },
         templateUrl: 'js/Directives/showApp.html',
-        link: function(scope, element, attrs) { 
-      
-            scope.rotar = function() { 
-              element.toggleClass('rotar');
-              element.closest( "p" ).toggleClass("hide");                                
-        }
-        }
   };
   });
