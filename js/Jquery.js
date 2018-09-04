@@ -1,8 +1,10 @@
-
-$(document).ready(() => {
-
-$('.targeta').on('click', () => {
-    $('.targeta').addClass('rotar');
-});
-
-});
+$( ".cuadro" ).each( function () {
+    $( this ).mouseenter( function () {
+      $(".flecha").addClass( "rotar" );
+      $(".texto").removeClass( "hide" );
+    } );
+    $(this).mouseleave( function () {
+      $(".flecha").removeClass( "rotar" );
+      $(".texto").addClass( "hide" );
+    } );
+  } );

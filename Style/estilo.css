@@ -40,16 +40,21 @@ body{
 }
 
 .targeta .flecha{
+   transition: 1s;
    font-weight: bolder;
    font-size: 35px;
    color: brown;   
 }
 .rotar{
-    transition: 0.5s;
+    transition: 1s;
     transform: rotate(90deg);
 }
 
 .hide{
     transition: 1s;
     display: none;
+}
+
+.prueba{
+    background-color: brown;
 }
